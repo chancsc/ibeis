@@ -268,9 +268,8 @@ In the interest of modular code we are actively developing several different mod
 +-----------------------------------------------------------------+--------------------------------+
 | `futures_actors <https://github.com/Erotemic/futures_actors>`_  |  ---                           |
 +-----------------------------------------------------------------+--------------------------------+
-| `ibeis_fluke <https://github.com/chancsc/ibeis-flukematch-module>`_  |  ---                           |
+| `fluke <https://github.com/chancsc/ibeis-flukematch-module>`_   |  ---                           |
 +-----------------------------------------------------------------+--------------------------------+
-
 
 .. |ibeisGithubActions| image:: https://github.com/Erotemic/ibeis/actions/workflows/tests.yml/badge.svg?branch=main
     :target: https://github.com/Erotemic/ibeis/actions?query=branch%3Amain
