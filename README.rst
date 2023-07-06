@@ -301,6 +301,10 @@ bluemellophone's IBEIS Image Analysis modules
 Building from source
 --------------------
 
+7 Jul 2023 - relavant ibeis github repo under `chancsc <https://github.com/chancsc>`_, 
+are modified to run on Nvidia Jetson Nano 4B, Jetpack 4.6.4, Ubuntu 18.04, 
+Python 3.6.9, OpenCV 3.4.20, on Python Virtual Environment.
+
 To build from source you need to be able to build the following 3 projects with
 binary dependences. These depened on having a development version of OpenCV and
 LZ4.
