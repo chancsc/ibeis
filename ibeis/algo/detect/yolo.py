@@ -6,6 +6,10 @@ from __future__ import absolute_import, division, print_function
 import utool as ut
 import vtool_ibeis as vt
 from six.moves import zip
+
+# sc - to fix class not found issue. Keep the pydarknet under: ibeis\ibeis\
+from pydarknet._pydarknet import Darknet_YOLO_Detector
+
 (print, rrr, profile) = ut.inject2(__name__, '[yolo]')
 
 if not ut.get_argflag('--no-pydarknet'):
