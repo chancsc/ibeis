@@ -7,8 +7,7 @@ Release / update notes:
 are modified to run on Nvidia Jetson Nano 4B, Jetpack 4.6.4, Ubuntu 18.04, 
 Python 3.6.9 on Python Virtual Environment.
 
-Code related to OpenCV at PyDarknet Repo has been remove, as the code referring to 
-very old OpenCV version 2.
+Refer to Jetson Nano `setup guide here <https://github.com/chancsc/ibeis/blob/main/Jetson_Nano_Setup.rst>`_
 
 -----------------------
 
