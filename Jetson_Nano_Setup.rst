@@ -34,7 +34,12 @@ Setup steps
 3. Pydarknet — very old libraries. Code related to OpenCV has been remove, 
 as the code referring to very old OpenCV version 2.
    - use this `repo <https://github.com/chancsc/ibeis-pydarknet>`_
-   — not sure after make, how to install the .so file yet ??
+
+.. code:: bash
+
+    cd pydarknet
+    python3 setup.py develop
+
 
 4. install additional modules (to put into part of requirements modules)
 
