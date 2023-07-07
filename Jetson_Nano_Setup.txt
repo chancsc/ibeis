@@ -17,3 +17,54 @@ Directories stucture (for reference):
     |- utool
     |- vtool_ibeis_ext
 
+Setup steps
+-----------
+1. Setup python virtual env (can follow this 'guide <https://pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/>')
+
+2. numpy 1.19.5 will cause error: Illegal instruction (core dumped)
+pip install numpy==1.19.4
+
+3. Pydarknet — very old libraries
+   - use this 'repo <https://github.com/chancsc/ibeis-pydarknet>'
+     (modified to support Jetson Nano, Ubuntu 18.04, Python 3.6.9)
+   — not sure after make, how to install the .so file yet ??
+
+4. install additional modules (to put into part of requirements modules)
+pip install utool
+pip install flask Pillow
+pip install tornado pyzmq
+pip install pynmea2
+pip install psutil
+pip install Lasagne
+pip install -U flask-cors
+pip install next.pyqt5 — this module is to link to the system level pyqt5, otherwise install of pyqt5 will keep failing
+
+4.1 Install Theano
+git clone https://github.com/Theano/Theano.git
+git checkout rel-0.8.2
+python setup.py develop
+
+4.2 Install various ibeis modules
+guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
+   — install using this command:
+   pip install -e .
+
+4.3 Install pyflann_ibeis
+      (py3cv3) nano@jetson:~/vibeis/pyflann_ibeis/$ python setup.py develop
+
+4.4 Checkout & make the flukematch:
+      ibeis-flukematch-module
+      cd ibeis-flukematch-module
+      make
+      mv flukematch_lib.so ibeis_flukematch\
+      python3 setup.py develop
+
+5. Copy the following folders into the \ibeis   (refer to the directories structure above)
+\vtool_ibeis\vtool_ibeis as vtool
+\dtool_ibeis\dtool_ibeis as dtool
+\plottool_ibeis\plottool_ibeis as plottool
+\futures_actors\futures_actors as futures_actors
+
+6. to run ibeis:
+python3 -m ibeis
+
