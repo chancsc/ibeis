@@ -47,9 +47,15 @@ as the code referring to very old OpenCV version 2.
     pip install psutil
     pip install Lasagne
     pip install -U flask-cors
-    pip install vext.pyqt5 — this module is to link to the system level pyqt5, otherwise install of pyqt5 will keep failing
 
-4.1 Install Theano
+4.1 Install vext.pyqt5, this module is to link to the system level pyqt5, 
+otherwise install of pyqt5 will keep failing
+
+.. code:: bash
+
+    pip install vext.pyqt5
+
+4.2 Install Theano
 
 .. code:: bash
 
@@ -57,7 +63,7 @@ as the code referring to very old OpenCV version 2.
   git checkout rel-0.8.2
   python setup.py develop
 
-4.2 Install various ibeis modules
+4.3 Install various ibeis modules
 guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
 Sample command:
 
@@ -66,7 +72,7 @@ Sample command:
   cd guitool_ibeis
   pip install -e .
 
-4.3 Install pyflann_ibeis
+4.4 Install pyflann_ibeis
 
 Sample code:
 
@@ -74,7 +80,7 @@ Sample code:
 
       (py3cv3) nano@jetson:~/vibeis/pyflann_ibeis/$ python setup.py develop
 
-4.4 Checkout & make the flukematch:
+4.5 Checkout & make the flukematch:
 
 .. code:: bash
 
