@@ -65,7 +65,6 @@ otherwise install of pyqt5 will keep failing
 
 4.3 Install various ibeis modules
 guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
-Sample command:
 
 .. code:: bash
 
@@ -73,8 +72,6 @@ Sample command:
   pip install -e .
 
 4.4 Install pyflann_ibeis
-
-Sample code:
 
 .. code:: bash
 
@@ -91,10 +88,13 @@ Sample code:
       python3 setup.py develop
 
 5. Copy the following folders into the \ibeis   (refer to the directories structure above)
-\vtool_ibeis\vtool_ibeis as vtool
-\dtool_ibeis\dtool_ibeis as dtool
-\plottool_ibeis\plottool_ibeis as plottool
-\futures_actors\futures_actors as futures_actors
+
+.. code:: bash
+
+    \vtool_ibeis\vtool_ibeis as vtool
+    \dtool_ibeis\dtool_ibeis as dtool
+    \plottool_ibeis\plottool_ibeis as plottool
+    \futures_actors\futures_actors as futures_actors
 
 6. to run ibeis:
 
