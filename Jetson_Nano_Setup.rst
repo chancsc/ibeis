@@ -48,6 +48,26 @@ as the code referring to very old OpenCV version 2.
     pip install Lasagne
     pip install -U flask-cors
 
+
+4.1 vtool_ibeis_ext, pyflann_ibeis, pyhesaff
+Method 1: install using pip
+
+.. code:: bash
+
+    pip install vtool_ibeis_ext  pyflann_ibeis pyhesaff
+
+Method 2: build it. e.g.
+
+.. code:: bash
+
+    git clone <URL>
+    cd pyhesaff
+    mkdir build
+    cd build
+    cmake ..
+    make
+    sudo make install
+
 4.1 Install vext.pyqt5, this module is to link to the system level pyqt5, 
 otherwise install of pyqt5 will keep failing
 
