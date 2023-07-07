@@ -100,5 +100,5 @@ guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
 
 .. code:: bash
 
-  python3 -m ibeis
+    (py3cv3) nano@jetson:~/vibeis/ibeis$ python3 -m ibeis
 
