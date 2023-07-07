@@ -41,7 +41,7 @@ as the code referring to very old OpenCV version 2.
 .. code:: bash
 
     pip install utool
-    pip install flask Pillow
+    pip install flask Pillow lockfile simplejson
     pip install tornado pyzmq
     pip install pynmea2
     pip install psutil
