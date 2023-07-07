@@ -31,9 +31,9 @@ Setup steps
 
     pip install numpy==1.19.4
 
-3. Pydarknet — very old libraries
+3. Pydarknet — very old libraries. Code related to OpenCV has been remove, 
+as the code referring to very old OpenCV version 2.
    - use this `repo <https://github.com/chancsc/ibeis-pydarknet>`_
-     (modified to support Jetson Nano, Ubuntu 18.04, Python 3.6.9)
    — not sure after make, how to install the .so file yet ??
 
 4. install additional modules (to put into part of requirements modules)
