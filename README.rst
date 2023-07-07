@@ -5,7 +5,10 @@ Release / update notes:
 -----------------------
 7 Jul 2023 - relavant ibeis github repo under `chancsc <https://github.com/chancsc>`_, 
 are modified to run on Nvidia Jetson Nano 4B, Jetpack 4.6.4, Ubuntu 18.04, 
-Python 3.6.9, OpenCV 3.4.20, on Python Virtual Environment.
+Python 3.6.9 on Python Virtual Environment.
+
+Code related to OpenCV at PyDarknet Repo has been remove, as the code referring to 
+very old OpenCV version 2.
 
 -----------------------
 
