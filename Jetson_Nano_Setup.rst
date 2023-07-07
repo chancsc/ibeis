@@ -23,7 +23,7 @@ Directories stucture (for reference):
 Setup steps
 -----------
 
-1. Setup python virtual env, follow this `guide <https://pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/>`_
+1. Setup python virtual env & OpenCV, follow this `guide <https://pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/>`_
 
 2. Setup Qt5, refer to this `guide <https://forums.developer.nvidia.com/t/jetson-nano-and-qt5/76870/>`_
 
