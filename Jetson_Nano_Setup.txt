@@ -1,0 +1,19 @@
+Directories stucture (for reference):
+
+(root)
+  |- ibeis
+    |- db
+    |- dev
+    |- docs
+    |- dtool
+    |- flukematch
+    |- futures_actors
+    |- guitool_ibeis
+    |- ibeis
+        |- pydarknet
+    |- plottool_ibeis
+    |- requirements
+    |- test
+    |- utool
+    |- vtool_ibeis_ext
+
