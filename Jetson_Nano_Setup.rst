@@ -25,15 +25,15 @@ Setup steps
 
 1. Setup python virtual env, follow this `guide <https://pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/>`_
 
-1.1 Setup Qt5, refer to this `guide <https://forums.developer.nvidia.com/t/jetson-nano-and-qt5/76870/>`_
+2. Setup Qt5, refer to this `guide <https://forums.developer.nvidia.com/t/jetson-nano-and-qt5/76870/>`_
 
-2. numpy 1.19.5 will cause error: Illegal instruction (core dumped)
+3. numpy 1.19.5 will cause error: Illegal instruction (core dumped)
 
 .. code:: bash
 
     pip install numpy==1.19.4
 
-3. Pydarknet — very old libraries. Code related to OpenCV has been remove, 
+4. Pydarknet — very old libraries. Code related to OpenCV has been remove, 
 as the code referring to very old OpenCV version 2.
    - use this `repo <https://github.com/chancsc/ibeis-pydarknet>`_
 
@@ -43,7 +43,7 @@ as the code referring to very old OpenCV version 2.
     python3 setup.py develop
 
 
-4. install additional modules (to put into part of requirements modules)
+5. install additional modules (to put into part of requirements modules)
 
 .. code:: bash
 
@@ -56,7 +56,7 @@ as the code referring to very old OpenCV version 2.
     pip install -U flask-cors
 
 
-4.1 vtool_ibeis_ext, pyflann_ibeis, pyhesaff
+6. vtool_ibeis_ext, pyflann_ibeis, pyhesaff
 
 Method 1: install using pip
 
@@ -76,14 +76,14 @@ Method 2: build it. e.g.
     make
     sudo make install
 
-4.1 Install vext.pyqt5, this module is to link to the system level pyqt5, 
+7. Install vext.pyqt5, this module is to link to the system level pyqt5, 
 otherwise install of pyqt5 will keep failing
 
 .. code:: bash
 
     pip install vext.pyqt5
 
-4.2 Install Theano
+8. Install Theano
 
 .. code:: bash
 
@@ -91,7 +91,7 @@ otherwise install of pyqt5 will keep failing
   git checkout rel-0.8.2
   python setup.py develop
 
-4.3 Install various ibeis modules
+9. Install various ibeis modules
 guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
 
 .. code:: bash
@@ -99,13 +99,13 @@ guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
   cd guitool_ibeis
   pip install -e .
 
-4.4 Install pyflann_ibeis
+10. Install pyflann_ibeis
 
 .. code:: bash
 
       (py3cv3) nano@jetson:~/vibeis/pyflann_ibeis/$ python setup.py develop
 
-4.5 Checkout & make the flukematch:
+11. Checkout & make the flukematch:
 
 .. code:: bash
 
@@ -115,7 +115,7 @@ guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
       mv flukematch_lib.so ibeis_flukematch\
       python3 setup.py develop
 
-5. Copy the following folders into the \ibeis   (refer to the directories structure above)
+12. Copy the following folders into the \ibeis   (refer to the directories structure above)
 
 .. code:: bash
 
@@ -124,7 +124,7 @@ guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
     \plottool_ibeis\plottool_ibeis as plottool
     \futures_actors\futures_actors as futures_actors
 
-6. to run ibeis:
+13. to run ibeis:
 
 .. code:: bash
 
