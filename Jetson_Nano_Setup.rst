@@ -54,7 +54,7 @@ as the code referring to very old OpenCV version 2.
     pip install psutil
     pip install Lasagne
     pip install -U flask-cors
-
+    pip install Flask-CAS
 
 6. vtool_ibeis_ext, pyflann_ibeis, pyhesaff
 
@@ -99,11 +99,14 @@ guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
   cd guitool_ibeis
   pip install -e .
 
-10. Install pyflann_ibeis
+10. Install pyflann_ibeis, wbia-tpl-pyrf
 
 .. code:: bash
 
       (py3cv3) nano@jetson:~/vibeis/pyflann_ibeis/$ python setup.py develop
+
+
+10.1. wbia-plugin-cnn
 
 11. Checkout & make the flukematch:
 
