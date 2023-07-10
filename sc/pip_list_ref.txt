@@ -1,4 +1,4 @@
-This list is to how what has been installed in the virtual environment.
+This list is to show what has been installed in the virtual environment.
 
 (py3cv3) nano@jetson:~$ pip list
 Package                       Version     Editable project location
