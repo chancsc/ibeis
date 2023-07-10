@@ -76,6 +76,19 @@ Method 2: build it. e.g.
     make
     sudo make install
 
+Method 3: (if still have error when running program or pip list no package found)
+
+.. code:: bash
+
+    cd vtool_ibeis_ext
+    python setup.py develop
+
+Check if thelibsver.so appear in the directory, if not manually copy it:
+
+.. code:: bash
+
+    cp _skbuild/linux-aarch64-3.6/cmake-install/vtool_ibeis_ext/lib/libsver.so ./lib/libsver1.so
+
 7. Install vext.pyqt5, this module is to link to the system level pyqt5, 
 otherwise install of pyqt5 will keep failing
 
