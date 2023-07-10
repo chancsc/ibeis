@@ -1,3 +1,8 @@
+Jetson Nano Environment
+-----------------------
+Jetson Nano 4 GB RAM, Jetpack 4.6.4, Linux 18.04, Python 3.6.9, OpenCV 3.4.20
+
+
 Directories stucture (for reference):
 -------------------------------------
 .. code:: bash
