@@ -17,6 +17,7 @@ Directories stucture (for reference):
         |- requirements
         |- test
         |- utool
+        |- vtool
 
 
 Setup steps
