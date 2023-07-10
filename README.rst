@@ -4,7 +4,7 @@
 Release / update notes:
 -----------------------
 7 Jul 2023 - relavant ibeis github repo under `chancsc <https://github.com/chancsc>`_, 
-are modified to run on Nvidia Jetson Nano 4B, Jetpack 4.6.4, Ubuntu 18.04, 
+are modified to run on Nvidia Jetson Nano 4 GB, Jetpack 4.6.4, Ubuntu 18.04, 
 Python 3.6.9 on Python Virtual Environment.
 
 Refer to Jetson Nano `setup guide here <https://github.com/chancsc/ibeis/blob/main/Jetson_Nano_Setup.rst>`_
