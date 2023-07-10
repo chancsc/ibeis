@@ -1,0 +1,128 @@
+This list is to how what has been installed in the virtual environment.
+
+(py3cv3) nano@jetson:~$ pip list
+Package                       Version     Editable project location
+----------------------------- ----------- ----------------------------------------------------------
+alabaster                     0.7.13
+astor                         0.8.1
+attrs                         22.2.0
+autopep8                      2.0.2
+Babel                         2.11.0
+backports.zoneinfo            0.2.1
+boto                          2.49.0
+cachetools                    4.2.4
+certifi                       2023.5.7
+charset-normalizer            2.0.12
+click                         8.0.4
+codecov                       2.1.13
+coverage                      6.2
+cycler                        0.11.0
+dataclasses                   0.8
+decorator                     4.4.2
+Delorean                      1.0.0
+detecttools                   1.0.0.dev1  /home/nano/vibeis/detecttools
+distro                        1.8.0
+docutils                      0.18.1
+dtool-ibeis                   1.1.1       /home/nano/vibeis/dtool_ibeis
+Flask                         2.0.3
+Flask-CAS                     1.0.2
+Flask-Cors                    4.0.0
+gitdb                         4.0.9
+GitPython                     3.1.18
+graphviz                      0.19.1
+guitool-ibeis                 2.1.2       /home/nano/vibeis/guitool_ibeis
+h5py                          2.10.0
+humanize                      3.14.0
+ibeis-flukematch              0.0.0       /home/nano/vibeis/ibeis-flukematch-module
+idna                          3.4
+imageio                       2.15.0
+imagesize                     1.4.1
+importlib-metadata            4.8.3
+importlib-resources           5.4.0
+iniconfig                     1.1.1
+itsdangerous                  2.0.1
+Jinja2                        3.0.3
+joblib                        1.1.1
+kiwisolver                    1.3.1
+Lasagne                       0.1
+lockfile                      0.12.2
+lru-dict                      1.2.0
+MarkupSafe                    2.0.1
+matplotlib                    3.3.4
+networkx                      2.5.1
+numpy                         1.19.4
+objgraph                      3.5.0
+packaging                     21.3
+pandas                        1.1.5
+parse                         1.19.1
+patsy                         0.5.3
+Pillow                        8.4.0
+Pint                          0.17
+pip                           21.3.1
+plottool-ibeis                2.2.1       /home/nano/vibeis/plottool_ibeis
+pluggy                        1.0.0
+psutil                        5.9.5
+py                            1.11.0
+pycodestyle                   2.10.0
+pydarknet                     1.0.0.dev1  /home/nano/vibeis/pydarknet
+pyfiglet                      0.8.post1
+pyflann-ibeis                 2.3.0       /home/nano/vibeis/pyflann_ibeis
+Pygments                      2.14.0
+pyhesaff                      2.1.1       /home/nano/vibeis/pyhesaff
+pynmea2                       1.19.0
+pyparsing                     3.1.0
+pyperclip                     1.8.2
+PyQt5                         5.15.6
+PyQt5-sip                     12.9.1
+pytest                        7.0.1
+pytest-cov                    4.0.0
+pytest-timeout                2.1.0
+python-dateutil               2.8.2
+pytz                          2023.3
+pytz-deprecation-shim         0.1.0.post0
+PyWavelets                    1.1.1
+pyzmq                         25.1.0
+requests                      2.27.1
+ruamel.yaml                   0.17.32
+ruamel.yaml.clib              0.2.7
+scikit-build                  0.16.7
+scikit-image                  0.17.2
+scikit-learn                  0.24.2
+scipy                         1.5.4
+setproctitle                  1.2.3
+setuptools                    59.6.0
+simplejson                    3.19.1
+six                           1.16.0
+smmap                         5.0.0
+snowballstemmer               2.2.0
+Sphinx                        5.3.0
+sphinxcontrib-applehelp       1.0.2
+sphinxcontrib-devhelp         1.0.2
+sphinxcontrib-htmlhelp        2.0.0
+sphinxcontrib-jsmath          1.0.1
+sphinxcontrib-qthelp          1.0.3
+sphinxcontrib-serializinghtml 1.1.5
+statsmodels                   0.12.2
+Theano                        0.8.2       /home/nano/vibeis/Theano
+threadpoolctl                 3.1.0
+tifffile                      2020.9.3
+timerit                       1.0.1
+tomli                         1.2.3
+tornado                       6.1
+typing_extensions             4.1.1
+tzdata                        2023.3
+tzlocal                       4.2
+ubelt                         1.3.2
+urllib3                       1.26.16
+utool                         2.1.7       /home/nano/.virtualenvs/py3cv3/lib/python3.6/site-packages
+vext                          0.7.6
+vext.pyqt5                    0.7.4
+vtool-ibeis                   2.2.3       /home/nano/vibeis/vtool_ibeis
+vtool-ibeis-ext               0.1.1       /home/nano/vibeis/vtool_ibeis_ext
+wbia-flukematch               0.0.0       /home/nano/vibeis/wbia-plugin-flukematch
+Werkzeug                      2.0.3
+wheel                         0.37.1
+xdoctest                      1.1.1
+xmltodict                     0.13.0
+xxhash                        3.2.0
+zipp                          3.6.0
