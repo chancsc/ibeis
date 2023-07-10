@@ -17,7 +17,6 @@ Directories stucture (for reference):
         |- requirements
         |- test
         |- utool
-        |- vtool_ibeis_ext
 
 
 Setup steps
