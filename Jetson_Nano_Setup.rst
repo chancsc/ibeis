@@ -116,7 +116,9 @@ guitool_ibeis, plottool_ibeis, dtool_ibeis, vtool_ibeis, pyhesaff
   cd guitool_ibeis
   pip install -e .
 
-10. Install pyflann_ibeis, wbia-tpl-pyrf
+10. Install pyflann_ibeis, wbia-tpl-pyrf. Likely will face issue on old OpenCV (2.x) code.
+When run from source, not required this module, but if install ibeis via pip install ibeis 
+(Ibeis version 2.2.3), it will look for it. 
 
 .. code:: bash
 
